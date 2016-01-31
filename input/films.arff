@@ -1,0 +1,18 @@
+@RELATION film_success
+
+@ATTRIBUTE CountryOfOrigin	{USA, Europe, Australia, Brazil}
+@ATTRIBUTE BigStar			{yes, no}
+@ATTRIBUTE Genre  			{scifi, comedy, romance}
+@ATTRIBUTE Result 			{Success, Failure}
+
+@DATA
+USA,yes,scifi,Success
+USA,no,comedy,Failure
+USA,yes,comedy,Success
+Europe,no,comedy,Success
+Europe,yes,scifi,Failure
+Europe,yes,romance,Failure
+Australia,yes,comedy,Failure
+Brazil,no,scifi,Failure
+Europe,yes,comedy,Success
+USA,yes,comedy,Success
